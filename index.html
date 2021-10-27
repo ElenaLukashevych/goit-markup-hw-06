@@ -319,8 +319,7 @@
             <li class="clients-item">
               <a class="clients-link" href="">
                 <svg width="106" height="60">
-                  <use href="./images/sprite.svg#icon-Logo"></use></svg
-              ></a>
+                  <use href="./images/sprite.svg#icon-Logo"></use></svg ></a>
             </li>
 
             <li class="clients-item">
@@ -441,7 +440,44 @@
   <use href="./images/sprite.svg#icon-close-black"></use>
 </svg>
 </button>
+
+<form class="form">
+  <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+
+<div class="form-field">
+  <label class="form-label" for="name"> Имя</label>
+  <input class="form-input" type="text" name="name" id="name">
+</div>
+
+<div class="form-field">
+  <label class="form-label" for="tel">Телефон</label>
+  <input class="form-input" type="tel" name="tel" id="tel">
+</div>
+
+<div class="form-field">
+  <label class="form-label" for="mail">Почта</label>
+  <input class="form-input" type="email" name="mail" id="mail">
+</div>
+
+
+<div class="form-field">
+  <label class="form-label" for="comment">Комментарий</label>
+  <textarea class="comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+</div>
+
+<div class="form-checkbox">
+  <input type="checkbox" name="policy" id="policy">
+    <label class="checkbox-label" for="policy" >Соглашаюсь с рассылкой и принимаю <span>Условия договора</span></label>
+
+</div>
+<button class="btn btn-form" type="submit">Отправить</button>
+
+
+</form>
     </div>
+
+
+
   </div>
   
 <script src="./js/modal.js"></script>
