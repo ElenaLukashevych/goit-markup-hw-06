@@ -905,6 +905,35 @@ header {
   letter-spacing: 0.03em;
 
   margin-bottom: 30px;
+
+  
+}
+
+.checkbox-icon {
+    display: flex;
+    align-items: center;
+
+    margin-right: 8px;
+
+  width: 16px;
+  height: 15px;
+
+  border-radius: 4px;
+  border: 2px solid var(--title-text-color);
+
+}
+
+.input-checkbox:checked + .checkbox-icon {
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+
+  background-image: url(../images/full-check.svg);
+  
+  background-size: contain;
+  background-origin: border-box;
+
+  background-repeat: no-repeat;
+
 }
 
 .input-checkbox {
