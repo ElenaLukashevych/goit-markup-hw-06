@@ -492,8 +492,6 @@ header {
 
 .address-footer {
   /* margin-right: 70px; */
-
-
 }
 
 .address {
@@ -600,8 +598,7 @@ header {
   background-color: var(--footer-color);
 
   display: inline-block;
-    margin-right: 12px;
- 
+  margin-right: 12px;
 }
 
 .footer-input::placeholder {
@@ -623,7 +620,6 @@ header {
 .footer-svg {
   margin-left: 10px;
   fill: var(--primary-white-color);
-
 }
 
 /* Портфолио */
@@ -776,8 +772,6 @@ header {
   visibility: hidden;
 }
 
-
-
 .modal {
   position: absolute;
   position: relative;
@@ -849,6 +843,8 @@ header {
   margin-bottom: 10px;
   position: relative;
   display: flex;
+
+  transition: border var(--duration) var(--cubic), fill var(--duration) var(--cubic);
 }
 
 .form-field:focus-within .form-input {
@@ -905,22 +901,19 @@ header {
   letter-spacing: 0.03em;
 
   margin-bottom: 30px;
-
-  
 }
 
 .checkbox-icon {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    margin-right: 8px;
+  margin-right: 8px;
 
   width: 16px;
   height: 15px;
 
   border-radius: 4px;
   border: 2px solid var(--title-text-color);
-
 }
 
 .input-checkbox:checked + .checkbox-icon {
@@ -928,12 +921,11 @@ header {
   background-color: var(--accent-color);
 
   background-image: url(../images/full-check.svg);
-  
+
   background-size: contain;
   background-origin: border-box;
 
   background-repeat: no-repeat;
-
 }
 
 .input-checkbox {
