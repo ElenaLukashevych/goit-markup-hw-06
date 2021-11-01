@@ -942,6 +942,7 @@ header {
   margin-right: 8px;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 .form-link {
