@@ -484,6 +484,11 @@ header {
   padding-bottom: 60px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -491,12 +496,12 @@ header {
 }
 
 .address-footer {
-  /* margin-right: 70px; */
+  margin-right: 70px;
+  flex-grow: 1;
 }
 
 .address {
   font-style: normal;
-  margin-right: 70px;
 }
 
 .address-item:not(:last-child) {
@@ -776,7 +781,6 @@ header {
 
 .modal {
   position: absolute;
-  position: relative;
   top: 50%;
   left: 50%;
 
@@ -868,11 +872,14 @@ header {
   fill: var(--accent-color);
 }
 
-.form-label {
-  margin-bottom: 4px;
+.form-field {
+    margin-bottom: 20px;
+
 }
 
 .form-input {
+    margin-top: 4px;
+
   border: 1px solid #21212133;
   border-radius: 4px;
   padding: 11px 12px;
@@ -892,7 +899,6 @@ header {
   border: 1px solid #21212133;
   border-radius: 4px;
   height: 120px;
-  margin-bottom: 20px;
 }
 
 .comment::placeholder {
@@ -909,7 +915,6 @@ header {
 
   font-size: 14px;
   line-height: 1.71;
-  margin-left: 8px;
   letter-spacing: 0.03em;
 
   margin-bottom: 30px;
